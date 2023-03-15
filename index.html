@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" type="image/x-icon" href="icon/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section class="calc p-50">
+        <div class="container">
+            <div class="row">
+                <div class="calc_body">
+                    <h2>Calculator</h2>
+                    <div class="inputs">
+                    <input type="number" id="firstNumber" placeholder="First Number ..." class="form-control mt-3">
+                    <input type="number" id="secondNumber" placeholder="Second Number ..." class="form-control mt-3">
+                    </div>
+                    
+                    <div class="btns">
+                        <button class="btn btn-primary" id="plus"><i class="fa-solid fa-plus"></i></button>
+                        <button class="btn btn-success" id="minus"><i class="fa-solid fa-minus"></i></button>
+                        <button class="btn btn-secondry" id="xmark"><i class="fa-solid fa-xmark"></i></button>
+                        <button class="btn btn-dark" id="divide"><i class="fa-solid fa-divide"></i></button>
+                    </div>
+                    <div class="result form-control mt-3" id="result">
+                        Result
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
